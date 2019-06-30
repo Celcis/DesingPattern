@@ -1,3 +1,3 @@
 # DesingPattern
 
-Some Design Pattern which implementet in java
+Some Design Patterns which implementet in java by DerekBanas
