@@ -21,27 +21,27 @@ public class Animal {
 
 	
 	public void setName(String newName){ name = newName; }
-    	public String getName(){ return name; }
+    public String getName(){ return name; }
 
-    	public void setHeight(double newHeight){ height = newHeight; }
-    	public double getHeight(){ return height; }
-	/**
-	 * 
- 	* @param newWeight 
- 	*/
-    	public void setWeight(int newWeight){
-    		if(newWeight > 0) {
+    public void setHeight(double newHeight){ height = newHeight; }
+    public double getHeight(){ return height; }
+/**
+ * 
+ * @param newWeight 
+ */
+    public void setWeight(int newWeight){
+    	if(newWeight > 0) {
     		weight = newWeight;
     		
-    		}else {
+    	}else {
     		System.out.println("Weight must be bigger than 0");
-    		}
-   	 }
+    	}
+    }
     
-    	public double getWeight(){ return weight; }
+    public double getWeight(){ return weight; }
     
-    	public void setFavFood(String newFavFood){ favFood = newFavFood; }
-    	public String getFavFood(){ return favFood; }
+    public void setFavFood(String newFavFood){ favFood = newFavFood; }
+    public String getFavFood(){ return favFood; }
     
     public void setSpeed(double newSpeed){ speed = newSpeed; }
     public double getSpeed(){ return speed; }
